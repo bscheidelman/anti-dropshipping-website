@@ -3,7 +3,7 @@ const { getJson } = require("serpapi");
 
 const hostname = '127.0.0.1';
 const port = 3000;
-const API_KEY = "f2efc29d66dbbcd2d7dc616e6811a60176ccdb17a84b0585fa605a02935ce497";
+const API_KEY = "your api key";
 
 const server = http.createServer(async (req, res) => {
   if (req.method === "POST") {
