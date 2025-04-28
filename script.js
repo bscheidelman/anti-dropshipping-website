@@ -61,7 +61,7 @@ function uploadImageProduct() {
 
 //SECTION 2: Reverse image search and API usage
 
-const CLIENT_ID = "e478994b0887edb";
+const CLIENT_ID = "your client id";
   
 
 let serverFinished = false;
