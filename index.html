@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dontgetdropshipped.com</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Homepage Section -->
+       <!-- Homepage Section -->
+<div id="home-section">
+  <div class="home-content">
+      <div class="title-container">
+        <h1 id="site-title", style="color:#6C63FF">Don'tGetDropshipped.com</h1>
+      </div>
+      <div class="split-layout">
+        <div class="content-column">
+              <!-- Lead Text -->
+              <p class="lead-text">
+                  Cut through the middleman. Find the original source of any product in seconds.
+              </p>
+
+              <!-- Visual Steps -->
+              <div class="steps-container">
+                  <div class="step">
+                      <div class="step-number">1</div>
+                      <div class="step-content">
+                          <h3>Snap or Upload</h3>
+                          <p>Take a screenshot or upload any product image</p>
+                      </div>
+                  </div>
+                  
+                  <div class="step">
+                      <div class="step-number">2</div>
+                      <div class="step-content">
+                          <h3>AI-Powered Search</h3>
+                          <p>Our system scans multiple marketplaces</p>
+                      </div>
+                  </div>
+              </div>
+
+              <button id="ready-button" onclick="scrollToHero()">Start Saving Now</button>
+          </div>
+
+          <!-- Right Visual Column -->
+          <div class="visual-column">
+              <div class="platform-grid">
+                  <div class="platform-card">
+                      <i class="fas fa-shopping-cart"></i>
+                      <span>AliExpress</span>
+                  </div>
+                  <div class="platform-card amazon">
+                      <i class="fab fa-amazon"></i>
+                      <span>Amazon</span>
+                  </div>
+                  <div class="platform-card">
+                      <i class="fas fa-box-open"></i>
+                      <span>Walmart</span>
+                  </div>
+                  <div class="platform-card">
+                      <i class="fas fa-search-plus"></i>
+                      <span>+10 More</span>
+                  </div>
+              </div>
+              
+              <!-- Example Price Comparison -->
+              <div class="price-comparison">
+                  <div class="price bad">
+                      <h4>Dropshipper Price</h4>
+                      <p>$49.99</p>
+                  </div>
+                  <div class="vs-circle">VS</div>
+                  <div class="price good">
+                      <h4>Original Price</h4>
+                      <p>$14.99</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <div id="loading-overlay">
+              <div id="loading-bar"></div>
+            </div>
+          
+            <div class="content">
+                <h1 id="site-title">Don'tGetDropshipped.com</h1>
+                <label for="input-file" id="drop-area">
+                    <input type="file" accept="image/*" id="input-file" hidden>
+                    <div id="img-view">
+                        <img src="icon.svg" alt="Upload">
+                        <span>Upload any image from your device</span>
+                    </div>
+                </label>
+                <h1 id="site-subtext">We will search the web for any similar products</h1>
+            </div>
+        </div>
+
+        <!-- Product Section -->
+        <div id="product-section" class="hidden">
+            <div id="img-container">
+                <label for="input-file-product" id="drop-area-product">
+                  <input type="file" accept="image/*" id="input-file-product" hidden>
+                  <div id="img-view-product" class="uploaded-image">
+                    <span>Upload an image for the product section</span>
+                  </div>
+                </label>
+              </div>
+            <div id="product-list">
+              <div class="product">
+                <h2>Product 1</h2>
+                <p>Seller: Example Seller</p>
+                <a href="http://example.com" target="_blank">Visit Product</a>
+              </div>
+              <div class="product">
+                <h2>Product 2</h2>
+                <p>Seller: Example Seller</p>
+                <a href="http://example.com" target="_blank">Visit Product</a>
+              </div>
+              <div class="product">
+                <h2>Product 3</h2>
+                <p>Seller: Example Seller</p>
+                <a href="http://example.com" target="_blank">Visit Product</a>
+              </div>
+              <div class="product">
+                <h2>Product 4</h2>
+                <p>Seller: Example Seller</p>
+                <a href="http://example.com" target="_blank">Visit Product</a>
+              </div>
+              <div class="product">
+                <h2>Product 5</h2>
+                <p>Seller: Example Seller</p>
+                <a href="http://example.com" target="_blank">Visit Product</a>
+              </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
